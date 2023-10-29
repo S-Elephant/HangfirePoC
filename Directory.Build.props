@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <!-- Treat all warnings as errors. -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	
+	<!-- Enable documentation analysis (is required for StyleCop). -->
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Enforce the latest version of StyleCop.Analyzers. -->
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.507" />
+  </ItemGroup>
+</Project>
